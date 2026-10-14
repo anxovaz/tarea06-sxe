@@ -3,7 +3,8 @@
 Modifica tu `.env` a tu gusto o simplemente usa el `.env.example` en el repositorio.
 
 ```
-source .env.example
+mv .env.example .env
+source .env
 ```
 
 Asegurate de tener `docker` funcionando en tu equipo.
