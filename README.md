@@ -1,4 +1,4 @@
-# Tatea 6 - Propuesta de solución de gestión
+# Tarea 6 - Propuesta de solución de gestión
 
 ## Integrantes 
 
@@ -6,6 +6,6 @@
 
 - Antón Rodríguez
 
-- Edwin
+- Edwin Lezama
 
 
