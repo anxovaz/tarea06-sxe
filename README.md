@@ -62,3 +62,41 @@ Para crear un proveedor accedemos a la sección `Supplier` y en este caso creamo
 Para crear una ficha de cliente entramos a la sección `Customer list`:
 
 ![customer](./imgs/customer.png)
+
+## Incidencias encontradas
+
+### Despliegue
+
+En el momento de despliegue docker compose no era capaz de levantar la app, devido a este bloqueo decidimos volver a intentarlo al día siguiente, al día siguiente nos dimos cuenta que en el repositorio oficial de `frappe_docker` se había hecho un `commit` en la rama `main` con una actualización para `pwd.yml` que solucionaba el problema, simplemento lo descargamos, lo actualizamos para que recoja variables de entorno y ya funcionaba correctamente.
+
+### Espera a `create-site`
+
+Al desplegar la app nos dimos cuenta que no podiamos acceder a la interfaz web, revisando los `logs` de los contenedores nos dimos cuenta que el contenedor `create-site` aún estaba creando el sitio, así que simplemente esperamos a que terminase y comprobamos que nos dejase acceder.
+
+![create-site](./imgs/logs-createsite.png)
+
+## Bibliografía
+
+- Gemini - Registro Clientes
+
+    https://gemini.google.com
+
+    Prompt: ¿Cómo puedo crear un registro de clientes en ERP next?
+
+    Modificaciones: Repetimos los pasos obtenidos en la respuesta para crear una ficha de cliente
+
+- Gemini - Registro Clientes
+
+    https://gemini.google.com
+    
+    Prompt:  Explica de forma resumida que hace cada contenedor de este docker compose (adjuntado compose.yml)
+
+    Modificaciones: Resumen de la respuesta obtenida.
+
+- Dev.to - Frappe Framework
+
+    https://dev.to/aleher/que-es-frappe-framework-9ia	
+
+- Github repositorio frappe docker - `pwd.yml`
+
+    https://github.com/frappe/frappe_docker/tree/main  
