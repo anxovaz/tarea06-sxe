@@ -34,6 +34,6 @@ Usando los siguientes volúmenes:
 
 - **logs**: logs del `ERP`
 
-Y las siguiente red:
+Y la siguiente red:
 
-- freppe_network: tipo bridge
+- frappe_network: tipo bridge
