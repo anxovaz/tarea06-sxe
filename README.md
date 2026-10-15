@@ -32,12 +32,10 @@ source .env
 docker compose up -d
 
 docker compose logs -f create-site # mira los logs de el contenedor encargado de crear el sitio y esperamos a que finalice
+
 ```
 
 Después accedemos a `localhost:8080` en un navegador web.
-
- # mira los logs de el contenedor encargado de crear el sitio y esperamos a que finalice
-```
 
 Después accedemos a `localhost:8080` en un navegador web y creamos nuestro primer sitio.
 
