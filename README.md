@@ -35,9 +35,30 @@ docker compose logs -f create-site # mira los logs de el contenedor encargado de
 
 ```
 
+![compose-up](./imgs/compose-up.png)
+
 Después accedemos a `localhost:8080` en un navegador web.
 
 Después accedemos a `localhost:8080` en un navegador web y creamos nuestro primer sitio.
 
 ![inicio](./imgs/inicio.png)
 
+## Objetivos
+
+### Inventario
+
+Para crear un inventario primero hay que crear los productos y el almacén, para ello accedemos a la sección `Item` y creamos un nuevo producto llamado `Rueda` con id `001`, para el Almacén lo creamos en la sección `Warehouse`, una vez terminamos de crear el producto y el almacén accedemos a la sección `Stock Entry` y creamos una entrada de la siguiente forma:
+
+![stock](./imgs/stock.png)
+
+### Proveedores
+
+Para crear un proveedor accedemos a la sección `Supplier` y en este caso creamos un Bazar Chino.
+
+![supplier](./imgs/supplier.png)
+
+### Clientes
+
+Para crear una ficha de cliente entramos a la sección `Customer list`:
+
+![customer](./imgs/customer.png)
