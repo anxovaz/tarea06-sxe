@@ -7,7 +7,7 @@ mv .env.example .env
 source .env
 ```
 
-Asegurate de tener `docker` funcionando en tu equipo.
+Asegúrate de tener `docker` funcionando en tu equipo.
 
 # Ejecución
 
@@ -17,7 +17,7 @@ Lanza el compose con el siguiente comando.
 docker compose up -d
 ```
 
-## Espera a que finalize la instalación de `Frappe` y `ERP NEXT`.
+## Espera a que finalice la instalación de `Frappe` y `ERP NEXT`.
 
 ```
 docker compose logs -f create-site
@@ -25,7 +25,7 @@ docker compose logs -f create-site
 
 # Acceso
 
-Accede a `localhost:8080` en tu navegador web de confianza e introduze como usuario `Administrator` y `admin` de contraseña.
+Accede a `localhost:8080` en tu navegador web de confianza e introduce como usuario `Administrator` y `admin` de contraseña.
 
 # Parar
 
