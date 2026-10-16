@@ -83,7 +83,7 @@ Al desplegar la app nos dimos cuenta que no podíamos acceder a la interfaz web,
 
     Modificaciones: Repetimos los pasos obtenidos en la respuesta para crear una ficha de cliente
 
-- Gemini - Registro Clientes
+- Gemini - Resumen compose.yml
 
     https://gemini.google.com
     
