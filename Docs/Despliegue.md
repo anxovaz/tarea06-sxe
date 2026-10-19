@@ -4,7 +4,6 @@ Modifica tu `.env` a tu gusto o simplemente usa el `.env.example` en el reposito
 
 ```
 mv .env.example .env
-source .env
 ```
 
 Asegúrate de tener `docker` funcionando en tu equipo.

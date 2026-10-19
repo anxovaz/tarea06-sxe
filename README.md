@@ -27,8 +27,6 @@ Utilizamos el archivo `pwd.yml` del repositorio de `frappe-docker` y modificamos
 Después de tener nuestro archivo `.env` y el `compose.yml` actualizado lo desplegamos con `docker compose up -d`.
 
 ```
-source .env
-
 docker compose up -d
 
 docker compose logs -f create-site # mira los logs del contenedor encargado de crear el sitio y esperamos a que finalice
