@@ -35,7 +35,7 @@ docker compose logs -f create-site # mira los logs del contenedor encargado de c
 
 ![compose-up](./imgs/compose-up.png)
 
-Después accedemos a `localhost:8080` en un navegador web y creamos nuestro primer sitio.
+Después accedemos a `localhost:8080` en un navegador web, iniciamos sesión con usuario `Administrator` y la contraseña del `.env` (`ADMINISTRATOR_PASSWD`) y creamos nuestro primer sitio.
 
 ![inicio](./imgs/inicio.png)
 
