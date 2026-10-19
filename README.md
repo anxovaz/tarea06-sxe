@@ -89,6 +89,14 @@ Al desplegar la app nos dimos cuenta que no podíamos acceder a la interfaz web,
 
     Modificaciones: Resumen de la respuesta obtenida.
 
+- Gemini - Generación de imágenes para la presentación (diapositiva 4 de la presentación).
+
+    https://gemini.google.com
+
+    Prompt: Genera 3 imágenes para Stock, Proveedores y Clientes
+
+    Modificaciones: se le pidió algún cambio pequeño en el diseño
+
 - Dev.to - Frappe Framework
 
     https://dev.to/aleher/que-es-frappe-framework-9ia	
