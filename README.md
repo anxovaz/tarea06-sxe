@@ -27,8 +27,6 @@ Utilizamos el archivo `pwd.yml` del repositorio de `frappe-docker` y modificamos
 Después de tener nuestro archivo `.env` y el `compose.yml` actualizado lo desplegamos con `docker compose up -d`.
 
 ```
-source .env
-
 docker compose up -d
 
 docker compose logs -f create-site # mira los logs del contenedor encargado de crear el sitio y esperamos a que finalice
@@ -37,7 +35,7 @@ docker compose logs -f create-site # mira los logs del contenedor encargado de c
 
 ![compose-up](./imgs/compose-up.png)
 
-Después accedemos a `localhost:8080` en un navegador web y creamos nuestro primer sitio.
+Después accedemos a `localhost:8080` en un navegador web, iniciamos sesión con usuario `Administrator` y la contraseña del `.env` (`ADMINISTRATOR_PASSWD`) y creamos nuestro primer sitio.
 
 ![inicio](./imgs/inicio.png)
 

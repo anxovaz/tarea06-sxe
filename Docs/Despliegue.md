@@ -4,7 +4,6 @@ Modifica tu `.env` a tu gusto o simplemente usa el `.env.example` en el reposito
 
 ```
 mv .env.example .env
-source .env
 ```
 
 Asegúrate de tener `docker` funcionando en tu equipo.
@@ -25,7 +24,7 @@ docker compose logs -f create-site
 
 # Acceso
 
-Accede a `localhost:8080` en tu navegador web de confianza e introduce como usuario `Administrator` y `admin` de contraseña.
+Accede a `localhost:8080` en tu navegador web de confianza e introduce como usuario `Administrator` y `ADMINISTRATOR_PASSWD` (del `.env`) de contraseña.
 
 # Parar
 

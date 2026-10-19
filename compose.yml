@@ -54,6 +54,8 @@ services:
     volumes:
       - sites:/home/frappe/frappe-bench/sites
       - logs:/home/frappe/frappe-bench/logs
+    environment:
+      ADMINISTRATOR_PASSWD: ${ADMINISTRATOR_PASSWD}
     entrypoint:
       - bash
       - -c
@@ -78,7 +80,7 @@ services:
         if [ -d "sites/frontend" ]; then
           echo "Site frontend already exists, skipping creation";
         else
-          bench new-site --mariadb-user-host-login-scope='%' --admin-password=admin --db-root-username=root --db-root-password=admin --install-app erpnext --set-default frontend;
+          bench new-site --mariadb-user-host-login-scope='%' --admin-password=$$ADMINISTRATOR_PASSWD --db-root-username=root --db-root-password=admin --install-app erpnext --set-default frontend;
         fi;
 
   db:
